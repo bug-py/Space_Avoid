@@ -7,11 +7,21 @@
 ![Game Over](/img/over.png)
 
 - ## Comment jouer ?
-### Donc il faut installer la version de Python 3.12
-### Et lancer cette commande (dans un env virtuel):
+### Il est recommandé d'avoir Python **3.12**
+### Il faut se placer dans le répertoire du repo 
+### Et lancer cette commande (dans un env virtuel) pour installer pygame:
 ```bash
 py -m pip install -r requirements.txt
 ```
+### Et ensuite cela pour exécuter le jeu :
+```bash
+py Game.py
+```
+### *Bonus* : 
+```bash
+py SpaceBlock.py
+```
+### *Avec cette commande vous pouvez exécuter le prototype du jeu* 
 - ## Logiciel Utilisé 
 
 ### Donc ce jeu est écrit en Python avec la  bibliothèque Pygame
